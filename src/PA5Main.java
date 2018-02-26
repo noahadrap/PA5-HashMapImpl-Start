@@ -73,7 +73,6 @@ public class PA5Main {
         if (command.equals("DEBUG")) {
             MyHashMap<String, Integer> flights = countDepartures(input);
             flights.printBucket();
-
             }
 
         }
